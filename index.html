@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body_Main">
+    <nav>
+        <ul class="nav justify-content-end fixed-top">
+            <li class="nav-item"> <a class="nav-link active" href="#carouselExampleFade">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#Spotlight">Spotlight</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#Other">Other Articles</a> </li>
+        </ul>
+    </nav>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active pic_top1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="h3">Welcome</h3>
+                </div>
+            </div>
+            <div class="carousel-item pic_top2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="h3">Welcome</h3>
+                </div>
+            </div>
+            <div class="carousel-item pic_top3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="h3">Welcome</h3>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+    </div>
+    <h2 class="text-center mt-2">Introduction</h2>
+    <article>
+        <p class="intro">
+            Rock music is a broad genre of popular music that originated as "rock and roll" in the United States in the early 1950s, and developed into a range of different styles in the 1960s and later, particularly in the United Kingdom and in the United States. It has its roots in 1940s and 1950s rock and roll, a style which drew heavily on the genres of blues, rhythm and blues, and from country music. Rock music also drew strongly on a number of other genres such as electric blues and folk, and incorporated influences from jazz, classical and other musical styles. Musically, rock has centered on the electric guitar, usually as part of a rock group with electric bass, drums, and one or more singers.
+        </p>
+    </article>
+    <h2 id="Spotlight" class="text-center mt-5">Spotlight</h2>
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active GD_poster">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a class="text" href="GreenDay.html">Green Day</a></h5>
+                        <p><a class="text" href="GreenDay.html">East-Bay punks that have conquered the world with their music.</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item bmth_poster">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bring Me The Horizon</h5>
+                        <p>British hard rock enthusiasts.</p>
+                    </div>
+                </div>
+                <div class="carousel-item pic_spl3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Hollywood Undead</h5>
+                        <p>6 masked Californian men creating top-tier rap-rock music.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+        </div>
+    </div>
+    <h2 class="text-center mt-5">Other Articles</h2>
+    <div id="Other" class="container mt-5">
+        <div class="card-group">
+            <div class="card mx-2">
+                <div class="card_pic1"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card mx-2">
+                <div class="card_pic2"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

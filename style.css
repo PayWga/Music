@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.intro {
+    font-family: Roboto;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text {
+    color: white;
+}
+
+.text:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.pic_spl3 {
+    background: -webkit-linear-gradient(left, rgba(239, 197, 202, 1) 0%, rgba(210, 75, 90, 1) 0%, rgba(241, 142, 153, 1) 0%, rgba(186, 39, 55, 1) 100%);
+    height: 400px;
+}
+
+.pic_top1 {
+    background: -webkit-linear-gradient(left, rgba(239, 197, 202, 1) 0%, rgba(210, 75, 90, 1) 0%, rgba(241, 142, 153, 1) 0%, rgba(186, 39, 55, 1) 100%);
+    background-image: url(img/rock1.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+    height: 400px;
+}
+
+.pic_top2 {
+    background: -webkit-linear-gradient(left, rgba(98, 125, 77, 1) 0%, rgba(31, 59, 8, 1) 100%);
+    background-image: url(img/rock2.jpg);
+    background-size: cover;
+    background-position: 45% 60%;
+    height: 400px;
+}
+
+.pic_top3 {
+    background: -webkit-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background-image: url(img/rock3.jpg);
+    background-size: cover;
+    background-position: 50% 53%;
+    height: 400px;
+}
+
+.card_pic1 {
+    background: -webkit-linear-gradient(left, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 72%, rgba(168, 0, 119, 1) 100%);
+    height: 100px;
+}
+
+.card_pic2 {
+    background: -webkit-linear-gradient(left, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 68%, rgba(109, 0, 25, 1) 100%);
+    height: 100px;
+}
+
+.card_pic3 {
+    background: -webkit-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 50%, rgba(73, 165, 191, 1) 100%);
+    height: 100px;
+}
+
+.body_Main {
+    background: -webkit-linear-gradient(left, rgba(77, 77, 77, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(125, 125, 125, 1) 50%, rgba(0, 0, 0, 1) 80%, rgba(77, 77, 77, 1) 100%);
+}
+
+.body_GD {
+    background: -webkit-linear-gradient(left, rgba(97, 3, 3, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 85%, rgba(97, 3, 3, 1) 100%);
+}
+
+.nav_Main {
+    background: -webkit-linear-gradient(left, rgba(77, 77, 77, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(125, 125, 125, 1) 50%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 100%);
+}
+
+.nav_GD {
+    background: -webkit-linear-gradient(left, rgba(97, 3, 3, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.h3 {
+    position: relative;
+    top: -75px;
+    left: 0px;
+}
+
+.GD_pic1 {
+    background-image: url(img/green-day-poster.jpg);
+    height: 140px;
+    background-size: cover;
+}
+
+.GD_pic2 {
+    background-image: url(img/WEB_PHOTO_GREENDAY_070813.jpg);
+    height: 240px;
+    background-size: cover;
+}
+
+.GD_pic3 {
+    background-image: url(img/wall-graffiti.jpeg);
+    background-size: cover;
+    height: 180px;
+}
+
+.GD_pic4 {
+    background-image: url(img/green-day-fan-performs-onstage-chicago-concert.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+.GD_pic5 {
+    background-image: url(img/Green-Day-2-671x377.png);
+    background-size: cover;
+    height: 150px;
+}
+
+.GD_text {
+    width: 50%;
+    margin: auto;
+    color: #610303;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.GD_article {
+    margin-top: 50px;
+}
+
+.GD_Kerplunk {
+    background-image: url(img/Kerplunk.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_Dookie {
+    background-image: url(img/Dookie-poster.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_Insomniac {
+    background-image: url(img/Insomniac.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_Nimrod {
+    background-image: url(img/Nimrod.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_Warning {
+    background-image: url(img/Warning.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_American_Idiot {
+    background-image: url(img/american-idiot-poster.png);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_21st_Cent_Break {
+    background-image: url(img/21stCenturyBreakdown.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_Uno_Dos_Tre {
+    background-image: url(img/UnoDosTre.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_Revolution_Radio {
+    background-image: url(img/RevolutionRadio.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.GD_poster {
+    background-image: url(img/rs-tre-cool-f3ada6b9-bcac-4a87-b254-a16cdd8eac57.jpg);
+    background-size: cover;
+    background-position: 50% 33%;
+    height: 400px;
+}
+
+.GD_Jesus_Video {
+    position: relative;
+    top: 0px;
+    left: 30%;
+    margin-top: 20px;
+}
+
+.bmth_poster {
+    background-image: url(img/bmth.jpg);
+    background-size: cover;
+    background-position: 50% 33%;
+    height: 400px;
+}
