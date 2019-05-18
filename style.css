@@ -17,8 +17,10 @@
     color: red;
 }
 
-.pic_spl3 {
-    background: -webkit-linear-gradient(left, rgba(239, 197, 202, 1) 0%, rgba(210, 75, 90, 1) 0%, rgba(241, 142, 153, 1) 0%, rgba(186, 39, 55, 1) 100%);
+.HU_poster {
+    background-image: url(img/HollywoodUndead.jpg);
+    background-size: cover;
+    background-position: 50% 15%;
     height: 400px;
 }
 
