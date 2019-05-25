@@ -49,13 +49,17 @@
 }
 
 .card_pic1 {
-    background: -webkit-linear-gradient(left, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 72%, rgba(168, 0, 119, 1) 100%);
-    height: 100px;
+    background-image: url(img/marmozets.jpg);
+    background-size: cover;
+    background-position: 50% 95%;
+    height: 200px;
 }
 
 .card_pic2 {
-    background: -webkit-linear-gradient(left, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 68%, rgba(109, 0, 25, 1) 100%);
-    height: 100px;
+    background-image: url(img/twentyone.jpg);
+    background-size: cover;
+
+    height: 200px;
 }
 
 .card_pic3 {
@@ -123,6 +127,28 @@
     text-align: center;
     font-family: Roboto;
     font-weight: bold;
+}
+
+.GD_text_cont {
+    width: 35%;
+    margin: auto;
+    color: #610303;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.guns {
+    position: relative;
+    left: -75px;
+    top: 100px;
+}
+
+.bangbang {
+    position: relative;
+    left: -125px;
+    top: 20px;
 }
 
 .GD_article {
@@ -222,6 +248,14 @@
     top: 0px;
     left: 30%;
     margin-top: 20px;
+    margin-left: 50px;
+}
+
+.GD_Vid_Cont {
+    width: 85%;
+    position: relative;
+    left: -370px;
+    top: 0px;
 }
 
 .bmth_poster {
@@ -229,4 +263,134 @@
     background-size: cover;
     background-position: 50% 33%;
     height: 400px;
+}
+
+.body_bmth {
+    background: -webkit-linear-gradient(left, rgba(10, 138, 121, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 85%, rgba(10, 138, 121, 1) 100%);
+}
+
+.nav_bmth {
+    background: -webkit-linear-gradient(left, rgba(10, 138, 121, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.bmth_text {
+    color: white;
+    font-family: Roboto;
+}
+
+.bmth_pic1 {
+    background-color: aqua;
+    background-image: url(img/bmth1.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.bmth_pic2 {
+    background-color: blueviolet;
+    background-image: url(img/bmth2.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.bmth_pic3 {
+    background-color: darkred;
+    background-image: url(img/bmth_caro2.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.bmth_art {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bmth_art_text {
+    width: 50%;
+}
+
+.HU_art {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.body_HU {
+    background: -webkit-linear-gradient(left, rgba(0, 16, 68, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 75%, rgba(1, 4, 66, 1) 100%);
+}
+
+.nav_HU {
+    background: -webkit-linear-gradient(left, rgba(0, 16, 68, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.HU_text {
+    color: darkgray;
+    font-family: Roboto;
+}
+
+.HU_pic1 {
+    background-color: aquamarine;
+    background-image: url(img/hollywood1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+}
+
+.HU_pic2 {
+    background-color: darkgoldenrod;
+    background-image: url(img/hollywood2.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    height: 400px;
+}
+
+.HU_pic3 {
+    background-color: deeppink;
+    background-image: url(img/hollywood3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+}
+
+.bmth_Count {
+    background-image: url(img/count_bmth.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.bmth_Suicide {
+    background-image: url(img/suicide.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.bmth_There {
+    background-image: url(img/There.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.bmth_Sempiternal {
+    background-image: url(img/Sempiternal.png);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 65px;
+}
+
+.bmth_That {
+    background-image: url(img/thats.png);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 50px;
 }
