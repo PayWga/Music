@@ -130,25 +130,24 @@
 }
 
 .GD_text_cont {
-    width: 35%;
+    width: 30%;
     margin: auto;
     color: #610303;
     margin-top: 50px;
     text-align: center;
     font-family: Roboto;
     font-weight: bold;
+    position: relative;
+    top: 0px;
+    left: 70px;
 }
 
 .guns {
-    position: relative;
-    left: -75px;
-    top: 100px;
+    margin-top: 30px;
 }
 
-.bangbang {
-    position: relative;
-    left: -125px;
-    top: 20px;
+.guns21 {
+    margin-top: 100px;
 }
 
 .GD_article {
@@ -326,8 +325,19 @@
 }
 
 .HU_text {
-    color: darkgray;
+    color: white;
     font-family: Roboto;
+}
+
+.HU_art {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.HU_art_text {
+    width: 50%;
 }
 
 .HU_pic1 {
@@ -389,6 +399,62 @@
 
 .bmth_That {
     background-image: url(img/thats.png);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.bmth_Amo {
+    background-image: url(img/amo.png);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.HU_Swan {
+    background-image: url(img/swan.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 125px;
+}
+
+.HU_Desperate {
+    background-image: url(img/Desperate.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 125px;
+}
+
+.HU_Tragedy {
+    background-image: url(img/Tragedy.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.HU_Notes {
+    background-image: url(img/Notes.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 115px;
+}
+
+.HU_Day {
+    background-image: url(img/Day.jpg);
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.HU_Five {
+    background-image: url(img/Five.jpg);
     width: 125px;
     height: 125px;
     background-size: cover;
